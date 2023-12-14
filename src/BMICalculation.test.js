@@ -37,5 +37,6 @@ test('displays error with invalid inputs', () => {
   fireEvent.click(getByText(/Calculate BMI/i));
 
   // Check if error message is displayed
-  expect(getByText(/Please enter valid values for weight and height/i)).toBeInTheDocument();
+  expect(getByText(/Please enter valid values for weight(max 3 meters) and height(max 300 kg)./i)).toBeInTheDocument();
 });
+
