@@ -70,7 +70,7 @@ const BMICalculation = () => {
         setBMI(bmiValue);
         setError('');
       } else {
-        setError('Please enter valid values for weight(max 3 meters) and height(300 kg).');
+        setError('Please enter valid values for weight(max 3 meters) and height(max 300 kg).');
         setBMI(null);
       }
     }
