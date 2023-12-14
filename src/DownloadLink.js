@@ -5,7 +5,7 @@ const DownloadLink = () => {
     <div>
       <h2> Download Link to Resume</h2>
       {/* Add your resume download link here */}
-      <a href="C:\Users\hp\Desktop\Internship\XiCyqb\xicyqb\publicInnovance.pdf" download>
+      <a href="XiCyqb\xicyqb\public\Innovance.pdf" download>
         Download Resume
       </a>
     </div>
